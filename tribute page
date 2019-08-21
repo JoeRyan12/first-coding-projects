@@ -1,0 +1,135 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+
+
+
+<main id="main">
+  <h1 id="title"> Theodore Roosevelt Jr. </h1>
+    <p> The Rough Rider who became President </p> 
+ <figure id="img-div">  <img class="smaller-image" id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Theodore_Rooseveltnewtry.jpg/800px-Theodore_Rooseveltnewtry.jpg"/>
+   <figcaption id="img-caption"> Colonel Theodore Roosevelt of the Rough Riders </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <u><h3> Important Moments of Theodore Roosevelt Jr.'s life:</h3></u>
+  <ul>
+        <li> <b>1858</b> - Born in Manhattan, New York</li>
+        <li> <b>1864</b> - Witnessed Abraham Lincoln's funeral procession in Union Square, New York City</li>
+        <li> <b>1865</b> - At age 7 opened "Roosevelt Museum of Natural Histroy" and filled with taxidermied animals that he caught or killed</li>
+        <li> <b>1880</b> - Graduated Magna Cum Laude from Harvard</li>
+        <li> <b>1898</b> - Formed First UR Volunteer Cavalry Regiment
+        <li> <b>1898</b> - Returns from war in Cuba to become Governor of New York</li>
+        <li> <b>1901</b> - Took office in March as Vice President under McKinley</li>
+        <li> <b>1901</b> - Roosevelt becomes President as McKinley dies on September 14th from complications involing his gunshot wound from an assassination attempt</li>
+        <li> <b>1906</b> - Passes the Antiquities Act which proclaimed 18 US monuments, 51 bird reserves, 4 game preserves, and 150 national forests
+    <li> <b> 1919</b> - Dies at the age of 60</li>
+    </ul>
+          <em><p>"Death had to take Roosevelt sleeping, for if he had been awake, there would have been a fight."
+            - Thomas R. Marshall</p></em>
+ 
+        <h3 id="reference">Learn more about the Rough Rider at his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Theodore_Roosevelt" target="_blank" > Wikipedia entry</a></h3></section>
+        
+        
+      
+      
+  
+  <footer class="text-center" id="footer"><p>Written and Coded by <a href="https://github.com/JoeRyan12" target="_blank">Joe Ryan
+    </footer> 
+   </main>
