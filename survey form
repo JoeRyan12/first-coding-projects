@@ -106,4 +106,105 @@
         </form>
         
         
+      CSS
+      
+        @font-face{
+  font-family: Lato;
+  src: url(https://fonts.google.com/specimen/Lato);
+}
+body {
+  background-color: #5dfb97;
+  font-family: Lato;
+  text-align: center;
+}
+#surveycontainer {
+  background: #fff;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  width: 75%;
+  border-radius: 5px;
+}
+#survey-form {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.row-tab {
+  display: block;
+  padding-top: 20px;
+}
+.label-joe {
+  display: inline-block;
+  width: 35%;
+  text-align: right;
+}
+.input-joe {
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+} 
+.label-select {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+.input-select {
+  display: inline-block;
+  width: 43%;
+  text-align: left;
+}
+.label-radio {
+  display: inline-block;
+  width: 29%;
+  text-align: right;
+  vertical-align: top;
+}
+.input-radio {
+  display: inline-block;
+  width: 43%;
+  text-align: left;
+}
+.label-checkbox {
+  display: inline-block;
+  width: 29%;
+  text-align: right;
+  vertical-align: top;
+}
+.input-checkbox {
+  display: inline-block;
+  width: 43%;
+  text-align: left;
+}
+.label-comments {
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  left: 755px;
+}
+.input-comments {
+  display: inline-block;
+
+}
+select{
+    color: #ccc;
+}
+option{
+    color: #000;
+}
+option:first-child
+{
+    color: #ccc;
+}
+#submit {
+  margin:0 auto;
+  background-color: #5dfb97;
+  border-color: #5dfb97;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+        
+        
         
